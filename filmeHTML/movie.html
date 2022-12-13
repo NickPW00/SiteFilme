@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Filmes | Cinema pelo Mundo</title>
+    <link rel="shortcut icon" href="img/ticket-solid.svg">
     <link href="movie.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -13,7 +14,9 @@
             <img src="img/logo.jpg" alt="Cinema pelo Mundo" title="Cinema pelo Mundo">
             <h1><a href="home.html" title="Cinema pelo Mundo - Página Inicial">Cinema Pelo Mundo</a></h1>
         </div>
-        <div id="cH2"><a href="local.html" title="Local">Local</a><a href="movie.html" title="Filmes">Filmes</a></div>
+        <div id="cH2">
+            <a href="local.html" title="Local">Local</a><a href="movie.html" title="Filmes">Filmes</a>
+        </div>
     </header>
     <main>
         <section id="sec1">
@@ -21,31 +24,60 @@
         </section>
         <section id="sec2">
             <article>
-                <img class="fechar" src="img/icon-close.png" alt="Fechar Aba">
+                <a href="#" title="Fechar Aba"><img class="fechar" src="img/icon-close.png" alt="Fechar Aba"></a>
                 <h2>Home Aranha 2</h2>
                 <figure>
-                    <img class="poster" src="img/spiderman2.jpg" alt="Home Aranha 2">
+                    <img class="poster" src="img/spiderman2.jpg" alt="Home Aranha 2" title="Home Aranha 2">
                 </figure>
                 <p>O Dr. Otto Octavius é transformado em Doutor Octopus quando uma falha em uma experiência de fusão nuclear resulta em uma explosão que mata sua esposa. Ele culpa o Homem-Aranha pelo acidente e deseja vingança. Enquanto isso, o alter ego do herói, Peter Parker, perde seus poderes. Para complicar as coisas, o seu melhor amigo odeia o Homem-Aranha e sua amada fica noiva.</p>
             </article>
             <article>
-                <img class="fechar" src="img/icon-close.png" alt="Fechar Aba">
+                <a href="#" title="Fechar Aba"><img class="fechar" src="img/icon-close.png" alt="Fechar Aba"></a>
                 <h2>Batman Begins</h2>
                 <figure>
-                    <img class="poster" src="img/batman1.jpg" alt="Batman Begins">
+                    <img class="poster" src="img/batman1.jpg" alt="Batman Begins" title="Batman Begins">
                 </figure>
                 <p>O jovem Bruce Wayne viaja para o Oriente e recebe treinamento em artes marciais do mestre Henri Ducard, um membro da misteriosa Liga das Sombras. Quando Ducard revela que a verdadeira proposta da Liga é a destruição completa de Gotham City, Wayne retorna à sua cidade natal com o intuito de livrá-la de criminosos e assassinos. Bruce assume a persona de Batman, o Cavaleiro das Trevas, e conta com a ajuda do mordomo Alfred e do expert Lucius Fox.</p>
             </article>
             <article>
-                <img class="fechar" src="img/icon-close.png" alt="Fechar Aba">
+                <a href="#" title="Fechar Aba"><img class="fechar" src="img/icon-close.png" alt="Fechar Aba"></a>
                 <h2>X-Men: Primeira Classe</h2>
                 <figure>
-                    <img class="poster" src="img/xmen.jpg" alt="X-Men: Primeira Classe">
+                    <img class="poster" src="img/xmen.jpg" alt="X-Men: Primeira Classe" title="X-Men: Primeira Classe">
                 </figure>
                 <p>No início dos anos 1960, durante o auge da Guerra Fria, um mutante chamado Charles Xavier conhece um mutante chamado Erik Lehnsherr. Apesar de suas origens muito diferentes - Charles cresceu em uma família rica enquanto Erik perdeu seus pais em Auschwitz -, os dois se tornam grandes amigos. Enquanto o mundo oscila à beira de uma guerra nuclear, Charles e Erik unem forças com outros mutantes para salvar a humanidade. No entanto, um acontecimento separa os dois amigos.</p>
             </article>
         </section>
-        <section></section>
+        <section id="sec3">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">Próximos filmes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="tr1">
+                        <th>Nome</th>
+                        <th>Gênero</th>
+                        <th>Ano</th>
+                    </tr>
+                    <tr>
+                        <td>Vingadores</td>
+                        <td>Ação</td>
+                        <td>2012</td>
+                    </tr>
+                    <tr>
+                        <td class="green">Shrek 3</td>
+                        <td class="green">Animação</td>
+                        <td rowspan="2">2007</td>
+                    </tr>
+                    <tr>
+                        <td>Hitman</td>
+                        <td>Ação</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
     <footer>
         <div>2022</div><div>Cinema pelo Mundo</div><div>Todos os Direitos Reservados</div>

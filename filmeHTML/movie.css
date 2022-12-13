@@ -1,5 +1,10 @@
 *{
     box-sizing: border-box;
+    font-family: Montserrat;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(static/Montserrat-Regular.ttf);
 }
 body{
     margin: 0;
@@ -7,7 +12,7 @@ body{
 }
 header, footer{
     width: 100%;
-    height: 100px;
+    height: 110px;
     background-color: black;
     padding: 0 20px;
 }
@@ -40,7 +45,7 @@ h1{
     color: white;
 }
 footer{
-    height: 30px;
+    height: 50px;
     color: white;
     display: flex;
     align-items: center;
@@ -58,7 +63,7 @@ footer{
     justify-content: space-between;
 }
 .poster{
-    width: 220px;
+    width: 200px;
 }
 .fechar{
     width: 20px;
@@ -68,25 +73,47 @@ footer{
 }
 #sec2 article{
     border: purple solid 3px;
-    height: 700px;
     border-radius: 7px;
     position: relative;
-    width: 350px;
+    height: 600px;
+    width: 300px;
 }
 #sec2 p{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 13px;
     color: darkgreen;
     margin: 0 10px;
 }
 #sec2 h2{
     text-align: center;
 }
-#sec2 figure{
+#sec2 figure, #sec3{
     display: flex;
     justify-content: center;
 }
 #red{
     color: red
 }
-
+th, td{
+    border:purple solid 1px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: 25px 0;
+}
+thead th{
+    font-size: 27px;
+}
+#tr1{
+    font-size: 22px;
+    color: brown;
+}
+td{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.green{
+    color: rgb(24, 143, 24)
+}

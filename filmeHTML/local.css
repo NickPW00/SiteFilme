@@ -1,12 +1,18 @@
 *{
     box-sizing: border-box;
+    font-family: Montserrat;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(static/Montserrat-Regular.ttf);
 }
 body{
     margin: 0;
+    background-color: #f5f5dc;
 }
 header, footer{
     width: 100%;
-    height: 100px;
+    height: 110px;
     background-color: black;
     padding: 0 20px;
 }
@@ -38,10 +44,44 @@ h1{
     color: white;
 }
 footer{
-    height: 30px;
+    height: 50px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-weight: bold;
+}
+
+/* Primeira parte */
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#art2{
+    margin-top: 25px;
+}
+#art2 h2{
+    font-style: italic;
+}
+ul{
+    list-style: none;
+    font-weight: bold;
+}
+section img{
+    position: fixed;
+    bottom: 65px;
+    right: 40px;
+    width: 60px;
+}
+#redDash{
+    color: rgb(254, 0, 0);
+    text-decoration: underline rgb(254, 0, 0) 2px;
+}
+iframe{
+    width: 600px; 
+    height: 450px; 
+    border: 0;
 }
